@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "Customer": {
+      "title": "Customer",
+      "description": "DZPOS Client / Business Owner profile",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "phone": { "type": "string" },
+        "business_name": { "type": "string" },
+        "activity_code": { "type": "string" },
+        "wilaya_code": { "type": "string" },
+        "status": { "type": "string", "enum": ["active", "suspended", "blocked"] },
+        "created_at": { "type": "string" }
+      },
+      "required": ["id", "name", "phone", "business_name", "activity_code", "wilaya_code"]
+    },
+    "License": {
+      "title": "License",
+      "description": "Software License Certificate and Device Bindings",
+      "type": "object",
+      "properties": {
+        "license_id": { "type": "string" },
+        "license_key": { "type": "string" },
+        "customer_id": { "type": "string" },
+        "plan": { "type": "string", "enum": ["trial", "basic", "pro", "enterprise"] },
+        "status": { "type": "string", "enum": ["active", "expired", "revoked", "suspended"] },
+        "max_devices": { "type": "number" },
+        "expires_at": { "type": "string" }
+      },
+      "required": ["license_id", "license_key", "customer_id", "plan", "status", "expires_at"]
+    },
+    "LicenseRequest": {
+      "title": "LicenseRequest",
+      "description": "Pending POS License requests submitted from terminals or portal",
+      "type": "object",
+      "properties": {
+        "request_id": { "type": "string" },
+        "customer_name": { "type": "string" },
+        "phone": { "type": "string" },
+        "business_name": { "type": "string" },
+        "status": { "type": "string", "enum": ["pending", "approved", "rejected"] },
+        "created_at": { "type": "string" }
+      },
+      "required": ["request_id", "customer_name", "phone", "business_name", "status"]
+    }
+  },
+  "firestore": {
+    "/dzpos_system/{docId}": {
+      "schema": "Customer",
+      "description": "Master and modular system database state documents"
+    }
+  }
+}

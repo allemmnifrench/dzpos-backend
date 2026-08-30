@@ -1,0 +1,10 @@
+{
+  "name": "DZPOS Cloud Backend \u0026 Central Hub",
+  "description": "Production-ready central backend for DZPOS POS application: Customer \u0026 License Management, Device Binding, Business Activities, Product Data Packs versioning \u0026 sync, Offline-first APIs, RBAC, and Audit Logging.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

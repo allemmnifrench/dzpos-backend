@@ -1,0 +1,100 @@
+[
+  {
+    "product_id": "prod_dz_h01",
+    "activity_code": "hardware",
+    "name": "Perceuse à Percussion Total 850W",
+    "name_ar": "مثقاب كهربائي توتال 850 واط",
+    "name_fr": "Perceuse à Percussion 850W Total Tools",
+    "barcode": "6933596210015",
+    "category": "Outillage Électroportatif",
+    "brand": "Total Tools",
+    "unit": "Pièce",
+    "default_price": 6800,
+    "status": "active",
+    "metadata": {
+      "power": "850W",
+      "warranty_months": 12
+    },
+    "version": 2,
+    "created_at": "2026-01-01T00:00:00.000Z",
+    "updated_at": "2026-08-12T00:00:00.000Z"
+  },
+  {
+    "product_id": "prod_dz_h02",
+    "activity_code": "hardware",
+    "name": "Meuleuse d'angle Crown 115mm 1010W",
+    "name_ar": "صاروخ جلخ كراون 115 ملم 1010 واط",
+    "name_fr": "Meuleuse d'angle Crown 115mm",
+    "barcode": "6933596210022",
+    "category": "Outillage Électroportatif",
+    "brand": "Crown",
+    "unit": "Pièce",
+    "default_price": 5200,
+    "status": "active",
+    "metadata": {
+      "power": "1010W",
+      "disc_size": "115mm"
+    },
+    "version": 2,
+    "created_at": "2026-01-01T00:00:00.000Z",
+    "updated_at": "2026-08-12T00:00:00.000Z"
+  },
+  {
+    "product_id": "prod_dz_h03",
+    "activity_code": "hardware",
+    "name": "Ruban à Mesurer 5M Professionnel",
+    "name_ar": "متر قياس 5 أمتار احترافي",
+    "name_fr": "Mètre Ruban 5m Bi-matière",
+    "barcode": "6933596210039",
+    "category": "Mesure & Traçage",
+    "brand": "Ingco",
+    "unit": "Pièce",
+    "default_price": 450,
+    "status": "active",
+    "metadata": {
+      "length": "5m"
+    },
+    "version": 2,
+    "created_at": "2026-01-01T00:00:00.000Z",
+    "updated_at": "2026-08-12T00:00:00.000Z"
+  },
+  {
+    "product_id": "prod_dz_h04",
+    "activity_code": "hardware",
+    "name": "Ciment Blanc Saidal 25kg",
+    "name_ar": "إسمنت أبيض 25 كغ",
+    "name_fr": "Sac Ciment Blanc 25kg",
+    "barcode": "6130020020018",
+    "category": "Matériaux de Construction",
+    "brand": "GICA",
+    "unit": "Sac 25kg",
+    "default_price": 1150,
+    "status": "active",
+    "metadata": {
+      "weight": "25kg"
+    },
+    "version": 2,
+    "created_at": "2026-01-01T00:00:00.000Z",
+    "updated_at": "2026-08-12T00:00:00.000Z"
+  },
+  {
+    "product_id": "prod_dz_h05",
+    "activity_code": "hardware",
+    "name": "Peinture Blanche Satinée Astral 10L",
+    "name_ar": "دهان أبيض ساتيني أسترال 10 لتر",
+    "name_fr": "Peinture Acrylique Satinée Astral 10L",
+    "barcode": "6130020020025",
+    "category": "Peinture & Droguerie",
+    "brand": "Astral Algérie",
+    "unit": "Seau 10L",
+    "default_price": 4800,
+    "status": "active",
+    "metadata": {
+      "volume": "10L",
+      "color": "Blanc"
+    },
+    "version": 2,
+    "created_at": "2026-01-01T00:00:00.000Z",
+    "updated_at": "2026-08-12T00:00:00.000Z"
+  }
+]
